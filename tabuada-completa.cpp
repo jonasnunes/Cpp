@@ -10,8 +10,7 @@ int main()
 
     cout << "Digite um número para ver sua tabuada..." << "\n\n";
     cin >> n1;
-    cout << "\n";
-    cout << "Selecione uma operação..." << "\n\n";
+    cout << "\nSelecione uma operação..." << "\n\n";
     cout << " [1] Soma [2] Subtração [3] Multiplicação [4] Divisão" << "\n\n";
     cin >> opc;
     cout << "\n";
