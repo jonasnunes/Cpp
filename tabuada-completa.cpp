@@ -8,12 +8,12 @@ int main()
 
     float n1, n2 = 1, res, opc;
 
+    cout << "Digite um número para ver sua tabuada..." << "\n\n";
+    cin >> n1;
+    cout << "\n";
     cout << "Selecione uma operação..." << "\n\n";
     cout << " [1] Soma [2] Subtração [3] Multiplicação [4] Divisão" << "\n\n";
     cin >> opc;
-    cout << "\n";
-    cout << "Digite um número para ver sua tabuada..." << "\n\n";
-    cin >> n1;
     cout << "\n";
 
     if (opc == 1)
