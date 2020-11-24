@@ -32,15 +32,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res1;
 	
-	if(res1 == 'a' or 'A')
+	switch(res1)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'a':
+			cout << "\n\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\n\nResposta Incorreta. Tente novamente..." << endl;
+			erros++;
+			break;		
 	}
 	
 	cout << "\nQuestão 2:\n";
@@ -54,15 +55,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res2;
 	
-	if(res2 == 'd' or 'D')
+	switch(res2)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'd':
+			cout << "\nResposta Correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta Incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "\nQuestão 3:\n";
@@ -76,15 +78,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res3;
 	
-	if(res3 == 'c' or 'C')
+	switch(res3)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'c':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta Incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "\nQuestão 4:\n";
@@ -98,15 +101,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res4;
 	
-	if(res4 == 'e' or 'E')
+	switch(res4)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'e':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta Incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "\nQuestão 5:\n";
@@ -120,15 +124,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res5;
 	
-	if(res5 == 'e' or 'E')
+	switch(res5)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'e':
+			cout << "\nResposta Correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "\nQuestão 6:\n";
@@ -142,15 +147,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res6;
 	
-	if(res6 == 'b' or 'B')
+	switch(res6)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'b':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta Incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "\nQuestão 7:\n";
@@ -164,15 +170,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res7;
 	
-	if(res7 == 'a' or 'A')
+	switch(res7)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'a':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta Incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "\nQuestão 8:\n";
@@ -186,15 +193,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res8;
 	
-	if(res8 == 'a' or 'A')
+	switch(res8)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'a':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta Incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "\nQuestão 9:\n";
@@ -209,15 +217,16 @@ int main()
 	cout << "\nQual é a resposta certa? ";
 	cin >> res9;
 	
-	if(res9 == 'c' or 'C')
+	switch(res9)
 	{
-		cout << "\n\nRespota Correta. Parabéns!" << endl;
-		acertos++;
-	}
-	else
-	{
-		cout << "\n\nQue pena! Você errou..." << endl;
-		erros++;
+		case 'c':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		default:
+			cout << "\nResposta incorreta. Tente novamente..." << endl;
+			erros++;
+			break;
 	}
 	
 	cout << "------------------------------\n";
