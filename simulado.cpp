@@ -38,6 +38,10 @@ int main()
 			cout << "\n\nResposta correta. Parabéns!" << endl;
 			acertos++;
 			break;
+		case 'A':
+			cout << "\n\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
 		default:
 			cout << "\n\nResposta Incorreta. Tente novamente..." << endl;
 			erros++;
@@ -58,6 +62,10 @@ int main()
 	switch(res2)
 	{
 		case 'd':
+			cout << "\nResposta Correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		case 'D':
 			cout << "\nResposta Correta. Parabéns!" << endl;
 			acertos++;
 			break;
@@ -84,6 +92,10 @@ int main()
 			cout << "\nResposta correta. Parabéns!" << endl;
 			acertos++;
 			break;
+		case 'C':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
 		default:
 			cout << "\nResposta Incorreta. Tente novamente..." << endl;
 			erros++;
@@ -104,6 +116,10 @@ int main()
 	switch(res4)
 	{
 		case 'e':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		case 'E':
 			cout << "\nResposta correta. Parabéns!" << endl;
 			acertos++;
 			break;
@@ -130,6 +146,10 @@ int main()
 			cout << "\nResposta Correta. Parabéns!" << endl;
 			acertos++;
 			break;
+		case 'E':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
 		default:
 			cout << "\nResposta incorreta. Tente novamente..." << endl;
 			erros++;
@@ -150,6 +170,10 @@ int main()
 	switch(res6)
 	{
 		case 'b':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		case 'B':
 			cout << "\nResposta correta. Parabéns!" << endl;
 			acertos++;
 			break;
@@ -176,6 +200,10 @@ int main()
 			cout << "\nResposta correta. Parabéns!" << endl;
 			acertos++;
 			break;
+		case 'A':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
 		default:
 			cout << "\nResposta Incorreta. Tente novamente..." << endl;
 			erros++;
@@ -196,6 +224,10 @@ int main()
 	switch(res8)
 	{
 		case 'a':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		case 'A':
 			cout << "\nResposta correta. Parabéns!" << endl;
 			acertos++;
 			break;
@@ -220,6 +252,10 @@ int main()
 	switch(res9)
 	{
 		case 'c':
+			cout << "\nResposta correta. Parabéns!" << endl;
+			acertos++;
+			break;
+		case 'C':
 			cout << "\nResposta correta. Parabéns!" << endl;
 			acertos++;
 			break;
