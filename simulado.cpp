@@ -12,7 +12,7 @@ int main()
 	cout << "------------------------------\n\n";
 	
 	string nome;
-	int matricula, acertos = 0, erros = 0;
+	int matricula, acertos = 0, erros = 0, nota;
 	char res1, res2, res3, res4, res5, res6, res7, res8, res9;
 	
 	cout << "Disciplina.: PENSAMENTO COMPUTACIONAL\n\n";
@@ -268,6 +268,20 @@ int main()
 	cout << "------------------------------\n";
 	cout << "\nVocê acertou: " << acertos << " questões." << endl;
 	cout << "\nVocê errou: " << erros << " questões." << endl;
+	cout << "\n------------------------------\n";
+	nota = acertos;
+
+	cout << "\nSua nota foi.: " << nota << endl;
+
+	if(nota >= 6)
+	{
+		cout << "\nParabéns! Você está aprovado..." << endl;
+	}
+	else
+	{
+		cout << "\nVocê está de recuperação..." << endl;
+	}
 	
+	system("pause");
 	return 0;
 }
