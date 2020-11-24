@@ -33,15 +33,15 @@ int main()
 	cin >> res1;
 	
 	if(res1 == 'a' or 'A')
-		{
-			cout << "\n\nRespota Correta. Parabéns!" << endl;
-			acertos++;
-		}
+	{
+		cout << "\n\nRespota Correta. Parabéns!" << endl;
+		acertos++;
+	}
 	else
-		{
-			cout << "\n\nQue pena! Você errou..." << endl;
-			erros++;
-		}
+	{
+		cout << "\n\nQue pena! Você errou..." << endl;
+		erros++;
+	}
 	
 	cout << "\nQuestão 2:\n";
 	cout << "------------------------------\n\n";
