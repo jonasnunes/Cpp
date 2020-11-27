@@ -22,7 +22,7 @@ int main()
     cout << "\nVocê dormiu bem? \n[1] Sim [2] Não";
     cin >> opc;
 
-    if(opc == 1)
+    if(opc == 1) // dormiu bem
     {
         cout << "\nQue bom! Estou feliz por você!\n";
         cout << "Vai se levantar agora?\n[1] Sim [2] Não";
