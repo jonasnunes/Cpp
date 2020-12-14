@@ -12,13 +12,15 @@ int main()
 	cout << "------------------------------\n\n";
 	
 	string nome;
-	int matricula, acertos = 0, erros = 0, nota;
+	int acertos = 0, erros = 0, nota;
+	long long int matricula;
 	char res1, res2, res3, res4, res5, res6, res7, res8, res9;
 	
 	cout << "Disciplina.: PENSAMENTO COMPUTACIONAL\n\n";
 	cout << "Digite seu nome.: ";
-	cin >> nome;
-	cout << "Digite os quatros últimos números da sua matrícula.: ";
+	cin.ignore();
+	getline(cin, nome);
+	cout << "Digite o número da sua matrícula.: ";
 	cin >> matricula;
 	
 	cout << "\nQuestão 1:\n";
