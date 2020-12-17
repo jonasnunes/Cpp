@@ -6,7 +6,8 @@ int main()
 {
     setlocale(LC_CTYPE, "Portuguese");
 
-    int n, op;
+    float n;
+    int op;
 
     cout << "Selecione uma operação: \n\n[1] Soma \n[2] Subtração \n[3] Multiplicação \n[4] Divisão\n\n";
     cin >> op;
