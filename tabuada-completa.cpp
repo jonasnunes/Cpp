@@ -6,63 +6,52 @@ int main()
 {
     setlocale(LC_CTYPE, "Portuguese");
 
-    float n1, n2 = 1, res, opc;
+    int n, op;
 
-    cout << "Digite um número para ver sua tabuada..." << "\n\n";
-    cin >> n1;
-    cout << "\nSelecione uma operação..." << "\n\n";
-    cout << " [1] Soma [2] Subtração [3] Multiplicação [4] Divisão" << "\n\n";
-    cin >> opc;
+    cout << "Selecione uma operação: \n\n[1] Soma \n[2] Subtração \n[3] Multiplicação \n[4] Divisão\n\n";
+    cin >> op;
+
+    cout << "\nDigite um número para ver a sua tabuada: ";
+    cin >> n;
     cout << "\n";
 
-    if (opc == 1)
+    switch(op)
     {
-        while (n2 <= 10)
+        case 1:
+            for(int i = 1; i <= 10; i++)
             {
-                res = n1 + n2;
-                cout << n1 << " + " << n2 << " = " << res << endl;
-                ++n2;
+                cout << n << " + " << i << " = " << n + i << endl;
             }
+        break;
+
+        case 2:
+            for(int i = 1; i <= 10; i++)
+            {
+                cout << n << " - " << i << " = " << n - i << endl;
+            }
+        break;
+
+        case 3:
+            for(int i = 1; i <= 10; i++)
+            {
+                cout << n << " x " << i << " = " << n * i << endl;
+            }
+        break;
+
+        case 4:
+            for(int i = 1; i <= 10; i++)
+            {
+                cout << n << " / " << i << " = " << n / i << endl;
+            }
+        break;
+
+        default:
+        {
+            cout << "\nOpção Inválida!\n";
+        }
     }
 
-    else if (opc == 2)
-    {
-        while (n2 <= 10)
-            {
-                res = n1 - n2;
-                cout << n1 << " - " << n2 << " = " << res << endl;
-                ++n2;
-            }
-    }
-
-    else if (opc == 3)
-    {
-        while (n2 <= 10)
-            {
-                res = n1 * n2;
-                cout << n1 << " * " << n2 << " = " << res << endl;
-                ++n2;
-            }
-        
-    }
-
-    else if (opc == 4)
-    {
-        while (n2 <= 10)
-            {
-                res = n1 / n2;
-                cout << n1 << " / " << n2 << " = " << res << endl;
-                ++n2;
-            }
-    }
-
-    else
-    {
-        cout << "Opção Inválida!" << endl;
-    }
-    
     cout << "\n";
-
     system("pause");
     return 0;
 }
