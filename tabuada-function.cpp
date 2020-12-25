@@ -3,6 +3,24 @@
 
 using namespace std;
 
+void soma();
+void subtracao();
+void multiplicacao();
+void divisao();
+
+
+int main()
+{
+    setlocale(LC_CTYPE, "Portuguese");
+
+    soma();
+    subtracao();
+    multiplicacao();
+    divisao();
+
+    return 0;
+}
+
 void soma()
 {
     int n1;
@@ -66,16 +84,4 @@ void divisao()
         double res = n1 / n;
         cout << n1 << " / " << n << " = " << res << endl;
     }
-}
-
-int main()
-{
-    setlocale(LC_CTYPE, "Portuguese");
-
-    soma();
-    subtracao();
-    multiplicacao();
-    divisao();
-
-    return 0;
 }
